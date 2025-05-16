@@ -1,0 +1,59 @@
+/* custom.css */
+.margin-note {
+  float: left;
+  clear: left;
+  margin-left: -35%;
+  width: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.9em;
+  line-height: 1.3;
+  position: relative;
+  z-index: 200;
+  padding-right: 1em;
+  border-right: 2px solid #eee;
+  font-style: italic;
+  text-align: right;
+}
+
+/* Adjust the main content to accommodate left margin notes */
+main {
+  margin-left: 10%;
+  max-width: 95%;
+  overflow-x: visible !important;
+}
+
+/* Adjust TOC position */
+.sidebar-toc {
+  right: 0 !important;
+  left: auto;
+  z-index: 100;
+}
+
+.definition {
+  background-color: #f8f9fa;
+  border-left: 4px solid #5bc0de;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+.example {
+  background-color: #f3f5f7;
+  border-left: 4px solid #28a745;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+.practice {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+}
+
+.key-concepts {
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
